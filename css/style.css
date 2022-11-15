@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --green: #67bd45;
+  --white: #fff;
+  --blue: #023e73;
+  --bodytext: Segoe UI;
+  --headlines: Heading Pro Trial;
+}
+
+.miniLogo {
+  position: fixed;
+  top: 20px;
+  left: 17px;
+}
+
+.logo {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  top: 71px;
+  width: 30%;
+}
+
+.tutorial {
+  position: fixed;
+  right: 24px;
+  top: 27px;
+}
+.settings {
+  position: fixed;
+  bottom: 25px;
+  left: 23px;
+}
+
+.flex {
+  position: fixed;
+  display: flex;
+  color: #fff;
+  font-family: Heading Pro Trial;
+  text-transform: uppercase;
+  align-items: flex-end;
+  right: 7px;
+  bottom: 15px;
+}
+
+#en {
+  color: var(--green);
+  font-weight: bold;
+  position: relative;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.topgap {
+  padding-top: 20px;
+}
+
+.box {
+  position: relative;
+  top: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Container holding the image and the text*/
+#background {
+  min-height: 100vh;
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/050/162/original/blur.png?1666779847);
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+}
+aside {
+  padding: 1%;
+}
+
+.lable {
+  color: var(--white);
+  font-family: var(--headlines);
+  font-weight: normal;
+  text-align: center;
+  font-size: 18px;
+}
+
+h1 {
+  color: var(--white);
+  font-family: var(--headlines);
+  text-align: center;
+  position: fixed;
+  top: 187px;
+  left: 229px;
+}
+
+.site-nav {
+  display: none;
+}
+
+.burger-menu-button {
+  border: none;
+  background: none;
+  margin-top: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .miniLogo {
+    width: 10%;
+  }
+
+  .tutorial {
+    width: 6%;
+    right: 15px;
+    top: 25px;
+  }
+
+  .logo {
+    width: 49%;
+    top: 113px;
+  }
+
+  .settings {
+    width: 6%;
+    left: 17px;
+    bottom: 17px;
+  }
+
+  h1 {
+    font-size: 18px;
+    left: 53px;
+  }
+
+  .flex {
+    font-size: 14px;
+    bottom: 14px;
+    right: 15px;
+  }
+
+  .topgap {
+    padding-top: 0px;
+  }
+
+  .icons {
+    flex: 50%;
+    gap: 24px;
+  }
+
+  .box {
+    display: flex;
+  }
+
+  #background {
+    background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/052/071/original/backgroundphone.png?1667824256);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+  }
+}

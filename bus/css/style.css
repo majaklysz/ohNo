@@ -1,0 +1,319 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --green: #67bd45;
+  --white: #fff;
+  --blue: #023e73;
+  --bodytext: Segoe UI;
+  --headlines: Heading Pro Trial;
+}
+
+.backgroundBus {
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/052/623/original/bust%C5%82o.png?1668079673);
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.miniLogo {
+  position: fixed;
+  top: 20px;
+  left: 17px;
+}
+
+.titleBus {
+  font-family: var(--headlines);
+  color: var(--white);
+  position: relative;
+  text-align: center;
+  top: 45px;
+  font-size: 23px;
+  right: 30px;
+}
+
+.iconsMap {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  position: relative;
+  top: 87px;
+  right: 30px;
+}
+
+.map {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  right: 30px;
+  top: 110px;
+  border-radius: 20px;
+}
+
+.arrowButton {
+  border: none;
+  background: none;
+  position: relative;
+  left: 20px;
+  top: 100px;
+}
+
+.sideMenu {
+  display: block;
+  position: absolute;
+  top: 25px;
+  right: 20px;
+}
+
+li {
+  list-style: none;
+  padding-bottom: 38px;
+}
+
+aside {
+  padding: 1%;
+}
+.flex {
+  position: fixed;
+  display: flex;
+  color: var(--blue);
+  font-family: Heading Pro Trial;
+  text-transform: uppercase;
+  align-items: flex-end;
+  right: 7px;
+  bottom: 15px;
+}
+
+#en {
+  color: var(--green);
+  font-weight: bold;
+  position: relative;
+}
+.site-nav {
+  display: none;
+}
+
+.burger-menu-button {
+  border: none;
+  background: none;
+  margin-top: 30px;
+}
+
+.greenBus {
+  position: absolute;
+  top: 136px;
+  left: 577px;
+  display: none;
+}
+
+.busLogo1,
+.busLogo2,
+.busLogo3 {
+  position: fixed;
+  width: 3%;
+  display: none;
+}
+
+.busLogo1 {
+  top: 399px;
+  left: 410px;
+}
+
+.busLogo2 {
+  top: 527px;
+  left: 500px;
+}
+
+.busLogo3 {
+  top: 577px;
+  left: 355px;
+}
+
+.man {
+  position: fixed;
+  top: 555px;
+  left: 440px;
+}
+
+.schedule1,
+.schedule2,
+.schedule3 {
+  display: none;
+  position: fixed;
+  top: 293px;
+  left: 305px;
+}
+
+@media only screen and (max-width: 600px) {
+  .backgroundBus {
+    background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/052/071/original/backgroundphone.png?1667824256);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+  }
+
+  .miniLogo {
+    width: 10%;
+  }
+
+  .sideMenu {
+    display: none;
+  }
+
+  .site-nav {
+    height: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+    z-index: 2;
+  }
+
+  .site-menu {
+    display: none;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 100%;
+    width: 200px;
+    background: #ffffff;
+    /* transform: translateX(100%);*/
+    transition: 0.3s transform ease-in-out;
+    z-index: 2;
+  }
+
+  .site-menu ul {
+    padding: 0px;
+    list-style-type: none;
+    margin: 0px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    background-color: #fff;
+  }
+
+  .site-menu li {
+    margin-top: 20px;
+    flex-basis: 100%;
+    display: flex;
+    height: 30px;
+    font-family: var(--headlines);
+  }
+
+  .site-menu a {
+    display: flex;
+    padding: 10px;
+    box-sizing: border-box;
+    text-decoration: none;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    color: #023e73;
+    padding: 25px;
+  }
+
+  .site-menu a:hover {
+    background: #023e73a9;
+    color: #fff;
+  }
+
+  .menu {
+    font-size: larger;
+    font-weight: bold;
+    color: #67bd45;
+    margin-left: 21px;
+    position: relative;
+    top: 16px;
+  }
+
+  hr {
+    border: 1px solid var(--blue);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .iconsMap {
+    flex-wrap: wrap;
+    right: 0px;
+    top: 130px;
+    gap: 12px;
+  }
+
+  .dokk1,
+  .gym,
+  .shop,
+  .bus,
+  .tram,
+  .greenBus {
+    width: 25%;
+  }
+
+  .greenBus {
+    top: 342px;
+    left: 97px;
+  }
+
+  .map {
+    width: 91%;
+    right: 0px;
+    top: 170px;
+  }
+
+  .arrow {
+    width: 80%;
+  }
+
+  .arrowButton {
+    top: 228px;
+  }
+
+  .flex {
+    color: var(--white);
+  }
+
+  .titleBus {
+    top: 85px;
+    right: 0px;
+    font-size: 19px;
+  }
+
+  .busLogo1,
+  .busLogo2,
+  .busLogo3 {
+    width: 6%;
+  }
+
+  .busLogo1 {
+    top: 562px;
+    left: 153px;
+  }
+
+  .busLogo2 {
+    top: 652px;
+    left: 213px;
+  }
+
+  .busLogo3 {
+    top: 684px;
+    left: 115px;
+  }
+
+  .man {
+    top: 668px;
+    left: 176px;
+    width: 8%;
+  }
+  .schedule1,
+  .schedule2,
+  .schedule3 {
+    top: 348px;
+    left: 29px;
+  }
+}

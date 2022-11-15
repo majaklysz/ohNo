@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --green: #67bd45;
+  --white: #fff;
+  --blue: #023e73;
+  --bodytext: Segoe UI;
+  --headlines: Heading Pro Trial;
+}
+
+#background {
+  min-height: 100vh;
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/050/162/original/blur.png?1666779847);
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+}
+
+.miniLogo {
+  position: fixed;
+  top: 20px;
+  left: 17px;
+}
+
+.computer {
+  display: flex;
+  position: relative;
+  margin: 30px auto;
+  width: 50%;
+  left: -51px;
+}
+
+h1,
+h2 {
+  color: var(--white);
+  font-family: var(--headlines);
+  text-align: center;
+  margin: 34px auto;
+}
+
+h1 {
+  font-size: 50px;
+  margin-bottom: 60px;
+}
+
+h3 {
+  color: var(--white);
+  font-family: var(--headlines);
+  text-align: center;
+  font-size: 25px;
+  margin-top: -17px;
+}
+
+button {
+  background-color: var(--green);
+  padding: 15px 55px;
+  color: var(--white);
+  text-align: center;
+  font-family: var(--bodytext);
+  font-size: 30px;
+  font-weight: bold;
+  border-radius: 35px;
+  border: none;
+  box-shadow: 9px 8px 10px #01203b;
+  display: block;
+  margin: 37px auto;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 35px;
+    margin-bottom: 75px;
+  }
+
+  h2 {
+    font-size: 20px;
+    line-height: 32px;
+    width: 380px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+
+  .computer {
+    width: 113%;
+    left: -66px;
+    margin: 52px auto;
+  }
+
+  .box {
+    position: relative;
+    top: 54px;
+  }
+
+  button {
+    font-size: 22px;
+    margin: 60px auto;
+  }
+
+  .home {
+    width: 27%;
+  }
+}
