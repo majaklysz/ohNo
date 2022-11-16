@@ -69,6 +69,10 @@ button {
   transition: 0.3ms ease-in-out;
 }
 
+a {
+  text-decoration: none;
+}
+
 button:hover {
   background-color: #1e4c0b;
 }
