@@ -1,0 +1,338 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ 
+:root {
+  --green: #67bd45;
+  --white: #fff;
+  --blue: #023e73;
+  --bodytext: Segoe UI;
+  --headlines: Heading Pro Trial;
+}
+ 
+.background {
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/052/633/original/vacume.png?1668083133);
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+   
+  }
+ 
+#logo{
+
+    position: relative;
+    top: 16px;
+    left: 22px;
+}
+ 
+#arrow{
+    position: relative;
+    top: 603px;
+    left: 22px;
+}
+
+
+
+h1 {
+  color:#fff;
+  font-family: var(--bodytext);
+  position: relative;
+  top: -108px;
+  left: 346px;
+  font-size: 55px;
+}
+ 
+h2 {
+  color:#fff;
+  font-family: var(--bodytext);
+  position: relative;
+    top: -54px;
+    left: 65px;
+}
+ 
+.white-box {
+ 
+  position: relative;
+  display:block;
+  left: 57px;
+  bottom: 38px;
+  background-color: #fff;
+  width: 750px;
+  height: 421px;
+  padding: 20px;
+  border-radius: 25px;
+}
+ 
+#vacuum1{
+  position: relative;
+  top: 60px;
+  left: 30px;
+}
+ 
+#vacuum2{
+  position: relative;
+  top: -249px;
+  left: 195px;
+}
+ 
+#vacuum3{
+  position: relative;
+  top: -555px;
+  left: 370px;
+}
+ 
+#vacuum4{
+  position: relative;
+  top: -861px;
+  left: 550px;
+}
+
+
+.sideMenu {
+  display: block;
+  position: absolute;
+  left: 920px;
+  top: 5px;
+}
+ 
+.laundry {
+  padding: 20px;
+  padding-top: 25px;
+ 
+}
+ 
+.vacuum {
+  padding: 20px;
+}
+ 
+.utilities {
+  padding: 20px;
+}
+ 
+.calendar {
+  padding: 20px;
+}
+ 
+.staff {
+  padding: 20px;
+}
+ 
+.map {
+  padding: 20px;
+}
+ 
+h3{
+  position: relative;
+  color: #023e73;
+  font-family: var(--bodytext);
+  top: 24px;
+  left: 934px;
+}
+
+.site-nav {
+  display: none;
+}
+
+.burger-menu-button {
+  border: none;
+  background: none;
+  margin-top: 30px;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  body {
+    overflow: hidden;
+  }
+
+  .site-nav {
+    height: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+    z-index: 2;
+  }
+ 
+  .site-menu {
+    display: none;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 100%;
+    width: 200px;
+    background: #ffffff;
+    /* transform: translateX(100%);*/
+    transition: 0.3s transform ease-in-out;
+    z-index: 2;
+  }
+
+ .vacuumcolor{
+  background-color: #67bd45;
+ }
+ 
+  .site-menu ul {
+    padding: 0px;
+    list-style-type: none;
+    margin: 0px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    background-color: #fff;
+  }
+ 
+  .site-menu li {
+    margin-top: 20px;
+    flex-basis: 100%;
+    display: flex;
+    height: 30px;
+    font-family: var(--headlines);
+  }
+ 
+  .site-menu a {
+    display: flex;
+    padding: 10px;
+    box-sizing: border-box;
+    text-decoration: none;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    color: #023e73;
+    padding: 25px;
+  }
+ 
+  .site-menu a:hover {
+    background: #023e73a9;
+    color: #fff;
+  }
+ 
+  .menu {
+    font-size: larger;
+    font-weight: bold;
+    color: #67bd45;
+    margin-left: 21px;
+  }
+ 
+  hr {
+    border: 1px solid var(--blue);
+  }
+
+
+  .background {
+    background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/052/789/original/backgroundphone.png?1668161186);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+  }
+
+.sideMenu{
+  display: none;
+}
+
+.white-box {
+ 
+  position: relative;
+  display:block;
+  left: 30px;
+  bottom: 25px;
+  background-color: #fff;
+  width: 315px;
+  height: 538px;
+  padding: 20px;
+  border-radius: 25px;
+}
+
+#logo{
+  position: relative;
+  top: 5px;
+  left: 22px;
+  
+}
+
+.logo1{
+  width: 10%;
+}
+
+#arrow{
+  top: 750px;
+  left: 22px;
+}
+
+.arrow1{
+  width: 10%;
+}
+
+h3{
+  color: #fff;
+  top: 50px;
+  left: 345px;
+}
+
+h1 {
+  top: -50px;
+  left: 106px;
+  font-size: 50px;
+}
+ 
+h2 {
+  top: -40px;
+  left: 45px;
+  font-size: 20px;
+}
+
+
+#vacuum1{
+  top: 35px;
+  left: 30px;
+}
+
+.vacuumicon1{
+  width: 35%;
+}
+
+#vacuum2{
+  top: -210px;
+  left: 180px;
+}
+
+.vacuumicon2{
+  width: 35%;
+}
+ 
+#vacuum3{
+  top: -200px;
+  left: 20px;
+}
+
+.vacuumicon3{
+  width: 35%;
+}
+ 
+#vacuum4{
+  top: -443px;
+  left: 175px;
+  
+}
+
+.vacuumicon4{
+  width: 35%;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+

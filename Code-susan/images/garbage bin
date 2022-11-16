@@ -1,0 +1,79 @@
+<div>
+    <img src="images/logo3.png" alt="logo" class="logo">
+    <img src="images/Path 10.png" alt="arrow" class="arrow">
+    <div id="sideNav">
+    <img src="images/laundry.png" alt="arrow" class="sideNav">
+    <img src="images/vacummes.png" alt="arrow" class="">
+    <img src="images/tools.png" alt="arrow" class="">
+    <img src="images/booking.png" alt="arrow" class="">
+    <img src="images/stuff.png" alt="arrow" class="">
+    <img src="images/map.png" alt="arrow" class="">
+    <img src="images/language.png" alt="arrow" class="">
+    </div>
+
+    <section class="section section-3">
+        <header class="section__header">
+             <h3 class="section__title">Explore & Discover</h3>
+           </header>
+
+           <div class="box"></div>
+           <main>
+          <section class="section section-1">
+             <div
+             id="box"   
+             class="section__content"
+                data-content
+                ><h4>Caretaker</h4><br>
+                <img src="images/caretaker.png" alt="caretaker" class="image">
+                <p class="name"> Charlotte Johnson<br></p>
+                <p class="info">
+                   <img src="images/phone.png" alt="phone" class="phone">
+                    +45 10 56 89 33<br>
+                   <img src="images/mail.png" alt="mail" class="mail">
+                   cjohnson@grundfosd.com<br></p>
+             </div>
+          </section>
+
+            padding: -10px;
+  position:absolute;
+  right: 380px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: Segoe UI;
+  font-weight: Semibold;
+  font-size: 39px;
+  color: #4E5E81;
+  line-height: 52;
+
+  font-size: 39px;
+  padding: -20px;
+  position:absolute;
+  right: 370px;
+  font-family: Arial, Helvetica, sans-serif;
+  color:var(--text);
+  font-weight: bolder;
+
+  <section class="section section-1">
+   <div
+   id="box"   
+   class="section__content"
+      data-content
+      ><h4>Caretaker</h4><br>
+      <img src="images/caretaker.png" alt="caretaker" class="image">
+      <p class="name"> Charlotte Johnson<br></p>
+      <p class="info">
+         <img src="images/phone.png" alt="phone" class="phone">
+          +45 10 56 89 33<br>
+         <img src="images/mail.png" alt="mail" class="mail">
+         cjohnson@grundfosd.com<br></p>
+   </div>
+</section>
+
+
+
+color: white;
+font-family: var(--bodytext);
+font-size: 40px;
+position: relative;
+top: -720px;
+left: -70%;
+display: inline-block;
