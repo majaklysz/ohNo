@@ -1,0 +1,315 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Verdana, sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+
+.background {
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/054/272/original/vacume.png?1668702314);
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+}
+
+.logo {
+  position: fixed;
+  top: 20px;
+  left: 17px;
+}
+
+.site-nav {
+  display: none;
+}
+
+.burger-menu-button {
+  border: none;
+  background: none;
+  margin-top: 30px;
+}
+
+.sideMenu {
+  display: block;
+  position: absolute;
+  top: 34px;
+  right: 20px;
+}
+
+li {
+  list-style: none;
+  padding-bottom: 38px;
+}
+
+aside {
+  padding: 1%;
+}
+
+.flex {
+  position: fixed;
+  display: flex;
+  color: var(--blue);
+  font-family: "Segoe UI";
+  text-transform: uppercase;
+  align-items: flex-end;
+  right: 7px;
+  bottom: 15px;
+}
+
+#en {
+  color: var(--green);
+  font-weight: bold;
+  position: relative;
+}
+
+:root {
+  --green: #67bd45;
+  --white: #fff;
+  --blue: #023e73;
+  --bodytext: Segoe UI;
+  --headlines: Segoe UI;
+}
+
+.arrow {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  padding: 10px;
+  padding-left: 25px;
+}
+
+.languageSwitch {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  padding: 10px;
+  padding-right: 25px;
+  height: auto;
+}
+
+.white-box {
+  position: relative;
+  display: flex;
+  left: 57px;
+  top: 90px;
+  background-color: #fff;
+  width: 750px;
+  height: 421px;
+  padding: 20px;
+  border-radius: 25px;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#vacuum1 {
+  position: relative;
+  top: 50px;
+}
+
+#vacuum2 {
+  position: relative;
+  top: 50px;
+}
+
+#vacuum3 {
+  position: relative;
+  top: 50px;
+}
+
+#vacuum4 {
+  position: relative;
+  top: 50px;
+}
+
+h1 {
+  color: #fff;
+  font-family: var(--bodytext);
+  position: relative;
+  font-size: 55px;
+  text-align: center;
+  top: 50px;
+}
+
+h2 {
+  color: #fff;
+  font-family: var(--bodytext);
+  position: relative;
+  top: 75px;
+  left: 70px;
+}
+
+h3 {
+  position: relative;
+  color: #023e73;
+  font-family: var(--bodytext);
+  top: 24px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    overflow: hidden;
+    font-family: Verdana, sans-serif;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .background {
+    background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/052/789/original/backgroundphone.png?1668161186);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+  }
+
+  .arrow {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+  }
+
+  .flex {
+    color: var(--white);
+  }
+
+  .logo {
+    width: 10%;
+  }
+
+  .sideMenu {
+    display: none;
+  }
+
+  .site-nav {
+    height: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+    z-index: 2;
+  }
+
+  .site-menu {
+    display: none;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 100%;
+    width: 200px;
+    background: #ffffff;
+    /* transform: translateX(100%);*/
+    transition: 0.3s transform ease-in-out;
+    z-index: 2;
+  }
+
+  .site-menu ul {
+    padding: 0px;
+    list-style-type: none;
+    margin: 0px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    background-color: #fff;
+  }
+
+  .site-menu li {
+    margin-top: 33px;
+    flex-basis: 100%;
+    display: flex;
+    height: 30px;
+    font-family: var(--headlines);
+  }
+
+  .site-menu a {
+    display: flex;
+    box-sizing: border-box;
+    text-decoration: none;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    color: #023e73;
+    padding: 25px;
+    left: 0px;
+    font-size: 20px;
+  }
+
+  .site-menu a:hover {
+    background: #023e73a9;
+    color: #fff;
+  }
+
+  .menu {
+    font-size: 25px;
+    font-size: larger;
+    font-weight: bold;
+    color: #67bd45;
+    margin-left: 21px;
+    padding-bottom: 13px;
+  }
+
+  hr {
+    border: 1px solid var(--blue);
+    margin-left: 13px;
+  }
+
+  .white-box {
+    position: relative;
+    display: flex;
+    left: 30px;
+    bottom: 25px;
+    background-color: #fff;
+    width: 315px;
+    height: 538px;
+    padding: 20px;
+    border-radius: 25px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .vacuum-color {
+    background-color: #67bd4570;
+  }
+
+  h3 {
+    color: #fff;
+    top: 50px;
+    left: 345px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h1 {
+    font-size: 50px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h2 {
+    top: 57px;
+    left: -9px;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .vacuumicon1,
+  .vacuumicon2,
+  .vacuumicon3,
+  .vacuumicon4 {
+    width: 75%;
+    top: -30px;
+    left: 10px;
+    position: relative;
+  }
+}

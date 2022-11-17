@@ -1,12 +1,13 @@
-style.css * {
+* {
   margin: 0;
   padding: 0;
 }
 
 .logo {
-  position: fixed;
-  top: 20px;
-  left: 17px;
+  height: 90px;
+  padding: 20px;
+  z-index: 3;
+  position: absolute;
 }
 
 ul {
@@ -128,20 +129,21 @@ h1 {
   font-size: 3rem;
   color: #ffffff;
   text-align: center;
-  font-family: "Segoe UI", sans-serif;
+  font-family: "Heading Pro Wide Trial", sans-serif;
   padding-top: 52px;
   font-weight: 400;
 }
 
 .buttongroup {
   text-align: center;
-  padding-bottom: 53px;
+  padding-bottom: 66px;
+  padding-top: 50px;
 }
 
 .sideMenu {
   display: block;
   position: absolute;
-  top: 16px;
+  top: 32px;
   right: 20px;
 }
 
@@ -269,7 +271,8 @@ aside {
   }
 
   .logo {
-    width: 10%;
+    height: 60px;
+    top: 1px;
   }
 
   table {
@@ -341,15 +344,16 @@ aside {
   }
 
   .site-menu li {
-    margin-top: 33px;
+    margin-top: 20px;
     flex-basis: 100%;
     display: flex;
     height: 30px;
-    font-family: Segoe UI;
+    font-family: var(--headlines);
   }
 
   .site-menu a {
     display: flex;
+    padding: 10px;
     box-sizing: border-box;
     text-decoration: none;
     align-items: center;
@@ -357,8 +361,6 @@ aside {
     width: 100%;
     color: #023e73;
     padding: 25px;
-    left: 0px;
-    font-size: 20px;
   }
 
   .site-menu a:hover {
@@ -367,12 +369,10 @@ aside {
   }
 
   .menu {
-    font-size: 25px;
     font-size: larger;
     font-weight: bold;
     color: #67bd45;
     margin-left: 21px;
-    padding-bottom: 13px;
   }
 
   .curve-left {
@@ -385,5 +385,10 @@ aside {
 
   hr {
     border: 1px solid var(--blue);
+  }
+
+  .burger-menu-button {
+    margin-top: 70px;
+    margin-right: 25px;
   }
 }

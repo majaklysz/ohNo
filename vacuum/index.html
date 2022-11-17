@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vacuum</title>
+    <link rel="stylesheet" href="../vacuum/css/style.css">
+</head>
+
+<body>
+    <div class="background">
+        <!--Mobile Nav-->
+        <nav class="site-nav">
+            <button class="burger-menu-button">
+                <img class="burger-img"
+                    src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/052/284/original/menu_burger.png?1667906655"
+                    alt="burger" />
+            </button>
+            <div class="site-menu" id="appear">
+                <ul>
+                    <li class="menu">Menu</li>
+                    <hr width="80%" style="color: black" />
+                    <li class="home-color"><a href="/index.html">Home</a></li>
+                    <li class="laundry-color"><a href="error/index.html">Laundry</a></li>
+                    <li class="vacuum-color"><a href="vacuume/index.html">Vacuum</a></li>
+                    <li class="borrow-color"><a href="error/index.html">Borrow Utilities</a></li>
+                    <li class="book-color"><a href="calander/index.html">Book Rooms</a></li>
+                    <li class="staff-color"><a href="staff/index.html">Staff Members</a></li>
+                    <li class="map-color"><a href="bus/index.html">Map</a></li>
+                </ul>
+            </div>
+        </nav>
+        <img class="logo"
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/052/046/original/minilogo2.png?1667811855"
+            alt="logo">
+
+        <div class="sideMenu">
+            <ul>
+                <li>
+                    <a href="error/index.html">
+                        <img class="laundry"
+                            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/052/605/original/Laundry-icon.png?1668078440"
+                            alt="laundry" />
+                    </a>
+                </li>
+                <li>
+                    <a href="vacuume/index.html">
+                        <img class="vacuum"
+                            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/052/777/original/Vacuum-Icon.png?1668158542"
+                            alt="vacuum" />
+                    </a>
+                </li>
+                <li>
+                    <a href="error/index.html">
+                        <img class="utility"
+                            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/052/610/original/Utilities-Icon.png?1668078480"
+                            alt="utility" />
+                    </a>
+                </li>
+                <li>
+                    <a href="calender/index.html">
+                        <img class="calender"
+                            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/052/779/original/Calender-Icon.png?1668158599"
+                            alt="calender" />
+                    </a>
+                </li>
+                <li>
+                    <a href="staff/index.html">
+                        <img class="staff"
+                            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/052/608/original/Staff-icon.png?1668078465"
+                            alt="staff" />
+                    </a>
+                </li>
+                <li>
+                    <a href="bus/index.html">
+                        <img class="mapIcon"
+                            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/054/094/original/Map-Icon.png?1668588220"
+                            alt="map" />
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h1>Vacuums</h1>
+            <h2>Check the <span style="color: var(--green)">location</span> of the vacuum:</h2>
+        </div>
+        <div class="white-box">
+            <div id="vacuum1"><img class="vacuumicon1"
+                    src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/052/771/original/vacuume1.png?1668158302"
+                    alt="vacuumicon1"></div>
+            <div id="vacuum2"><img class="vacuumicon2"
+                    src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/052/773/original/vacuume2.png?1668158357"
+                    alt="vacuumicon2"></div>
+            <div id="vacuum3"><img class="vacuumicon3"
+                    src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/052/774/original/vacuume3.png?1668158405"
+                    alt="vacuumicon3"></div>
+            <div id="vacuum4"><img class="vacuumicon4"
+                    src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/052/775/original/vacuume4.png?1668158452"
+                    alt="vacuumicon4"></div>
+        </div>
+        <div class="languageSwitch">
+            <aside class="flex">
+                <div id="en">en</div>
+                <div>/</div>
+                <div id="dk">dk</div>
+            </aside>
+        </div>
+        <div class="arrow">
+            <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/054/115/original/arrow.png?1668596540"
+                alt="back arrow">
+        </div>
+</body>
+
+<script>function menuappear() {
+        document.getElementById("appear").style.display = "flex";
+    }
+
+    function menudisappear() {
+        document.getElementById("appear").style.display = "none";
+    }
+
+    let menuButton = document.querySelector(".burger-menu-button");
+    menuButton.addEventListener("click", menuappear);
+
+    let menuBackground = document.querySelector(".site-menu");
+    menuBackground.addEventListener("click", menudisappear);</script>
+
+</html>
