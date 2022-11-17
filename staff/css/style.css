@@ -7,7 +7,7 @@ body {
   --white: #fff;
   --blue: #023e73;
   --bodytext: Segoe UI;
-  --headlines: Heading Pro Trial;
+  --headlines: Segoe UI;
 }
 
 .site-nav {
@@ -84,11 +84,11 @@ aside {
 }
 
 .title {
-  font-family: var(--headlines);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   position: fixed;
   font-size: 23px;
-  top: 7%;
-  left: 24%;
+  top: 6%;
+  left: 30%;
   color: #fff;
 }
 /*Scroll*/
@@ -122,7 +122,7 @@ aside {
 
 .job_c {
   font-size: 39px;
-  right: 154px;
+  right: 253px;
   top: -44px;
   color: var(--green);
   float: right;
@@ -132,7 +132,7 @@ aside {
 
 .job_j {
   font-size: 39px;
-  right: 220px;
+  right: 294px;
   top: -44px;
   color: var(--green);
   float: right;
@@ -142,7 +142,7 @@ aside {
 
 .job_p {
   font-size: 39px;
-  right: 202px;
+  right: 276px;
   top: -33px;
   color: var(--green);
   float: right;
@@ -157,8 +157,8 @@ aside {
   color: var(--blue);
   float: right;
   position: relative;
-  top: -85px;
-  left: -95px;
+  top: 58px;
+  left: 49px;
 }
 
 .bodyText_j {
@@ -169,7 +169,7 @@ aside {
   float: right;
   position: relative;
   top: 58px;
-  left: 72px;
+  left: 9px;
 }
 .phone {
   color: var(--green);
@@ -248,6 +248,7 @@ a {
     color: #023e73;
     padding: 25px;
     left: 0px;
+    font-size: 20px;
   }
 
   .site-menu a:hover {
@@ -256,6 +257,7 @@ a {
   }
 
   .menu {
+    font-size: 25px;
     font-size: larger;
     font-weight: bold;
     color: #67bd45;
@@ -290,10 +292,10 @@ a {
   }
 
   .title {
-    top: 9%;
-    left: 31px;
+    top: 7%;
+    left: 74px;
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
   }
   .caretaker,
   .janitor,
@@ -305,38 +307,38 @@ a {
   .caretakerImg,
   .janitorImg,
   .plumberImg {
-    top: 76px;
+    top: 70px;
     left: 58px;
   }
 
   .job_c {
-    font-size: 31px;
-    right: 52px;
-    top: -296px;
+    font-size: 33px;
+    right: 80px;
+    top: -311px;
   }
 
   .job_j {
-    font-size: 31px;
-    right: 82px;
-    top: -297px;
+    font-size: 33px;
+    right: 102px;
+    top: -47px;
   }
 
   .job_p {
     font-size: 31px;
-    right: 60px;
-    top: -297px;
+    right: 83px;
+    top: -305px;
   }
 
   .bodyText {
     font-size: 18px;
-    top: -15px;
-    left: -25px;
+    top: -31px;
+    left: -28px;
     text-align: center;
   }
   .bodyText_j {
     font-size: 18px;
     text-align: center;
-    top: -24px;
+    top: 91px;
     left: -29px;
   }
   .scroll {
