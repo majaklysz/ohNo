@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Staff Members</title>
+    <link rel="stylesheet" href="../staff/css/style.css" />
+  </head>
+  <body>
+    <div class="background">
+      <nav class="site-nav">
+        <button class="burger-menu-button">
+          <img
+            class="burger-img"
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/052/284/original/menu_burger.png?1667906655"
+            alt="burger"
+          />
+        </button>
+        <div class="site-menu" id="appear">
+          <ul>
+            <li class="menu">Menu</li>
+            <hr width="80%" style="color: black" />
+            <li class="home-color"><a href="home">Home</a></li>
+            <li class="laundry-color"><a href="laundry">Laundry</a></li>
+            <li class="vacuum-color"><a href="vacuum">Vacuum</a></li>
+            <li class="borrow-color"><a href="borrow">Borrow Utilities</a></li>
+            <li class="book-color"><a href="book">Book Rooms</a></li>
+            <li><a class="staff-color" href="staff">Staff Members</a></li>
+            <li class="map-color"><a href="map">Map</a></li>
+            <li class="language">
+              <aside class="flex">
+                <div id="en">en</div>
+                <div>/</div>
+                <div id="dk">dk</div>
+              </aside>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="sideMenu">
+        <ul>
+          <li>
+            <img
+              class="laundry"
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/052/605/original/Laundry-icon.png?1668078440"
+              alt="laundry"
+            />
+          </li>
+          <li>
+            <img
+              class="vacuum"
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/052/611/original/Vacuum-Icon.png?1668078489"
+              alt="vacuum"
+            />
+          </li>
+          <li>
+            <img
+              class="utility"
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/052/610/original/Utilities-Icon.png?1668078480"
+              alt="utility"
+            />
+          </li>
+          <li>
+            <img
+              class="calender"
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/052/601/original/Calender-Icon.png?1668078389"
+              alt="calender"
+            />
+          </li>
+          <li>
+            <img
+              class="staff"
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/054/129/original/Staff-icon.png?1668602010"
+              alt="staff"
+            />
+          </li>
+          <li>
+            <img
+              class="mapIcon"
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/054/128/original/Map-Icon.png?1668602002"
+              alt="map"
+            />
+          </li>
+        </ul>
+      </div>
+      <img
+        class="miniLogo"
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/052/046/original/minilogo2.png?1667811855"
+        alt="logo"
+      />
+
+      <div class="title"><h1>Staff Members</h1></div>
+
+      <div class="scroll">
+        <div class="caretaker">
+          <img
+            class="caretakerImg"
+            src="images/caretaker.png"
+            alt="caretaker"
+          />
+          <h4 class="job_c">Caretaker</h4>
+          <div class="bodyText">
+            <h3 class="name">Charlotte Johnson</h3>
+            <p class="phone">
+              <img src="images/phone.png" alt="phone" class="phoneNumber" />
+              +45 10 56 89 33
+            </p>
+            <p class="mail">
+              <img src="images/mail.png" alt="mail" class="mailImg" />
+              <a href="mailto:cjohnson@grundfosd.com">
+                cjohnson@grundfosd.com</a
+              >
+            </p>
+          </div>
+        </div>
+
+        <div class="janitor">
+          <img class="janitorImg" src="images/janitor.png" alt="janitor" />
+          <h4 class="job_j">Janitor</h4>
+          <div class="bodyText_j">
+            <h3 class="name">Jasper Peterson</h3>
+            <p class="phone">
+              <img src="images/phone.png" alt="phone" class="phoneNumber" />
+              +45 73 22 01 47
+            </p>
+            <p class="mail">
+              <img src="images/mail.png" alt="mail" class="mailImg" />
+              <a href="mailto:jpeterson@grundfosd.com">
+                jpeterson@grundfosd.com</a
+              >
+            </p>
+          </div>
+        </div>
+
+        <div class="plumber">
+          <img class="plumberImg" src="images/plumber.png" alt="plumber" />
+          <h4 class="job_p">Plumber</h4>
+          <div class="bodyText">
+            <h3 class="name">Mario Jumpman</h3>
+            <p class="phone">
+              <img src="images/phone.png" alt="phone" class="phoneNumber" />
+              +45 64 92 58 17
+            </p>
+            <p class="mail">
+              <img src="images/mail.png" alt="mail" class="mailImg" />
+              <a href="mailto:cjohnson@grundfosd.com">
+                mjumpman@grundfosd.com</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <aside class="flex_t">
+        <div id="en">en</div>
+        <div>/</div>
+        <div id="dk">dk</div>
+      </aside>
+    </div>
+  </body>
+  <script>
+    function menuappear() {
+      document.getElementById("appear").style.display = "flex";
+    }
+
+    function menudisappear() {
+      document.getElementById("appear").style.display = "none";
+    }
+
+    let menuButton = document.querySelector(".burger-menu-button");
+    menuButton.addEventListener("click", menuappear);
+
+    let menuBackground = document.querySelector(".site-menu");
+    menuBackground.addEventListener("click", menudisappear);
+  </script>
+</html>
