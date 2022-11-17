@@ -95,7 +95,7 @@ aside {
   position: relative;
   display: flex;
   left: 57px;
-  top: 90px;
+  top: 156px;
   background-color: #fff;
   width: 750px;
   height: 421px;
@@ -137,8 +137,8 @@ h1 {
 h2 {
   color: #fff;
   font-family: var(--bodytext);
-  position: relative;
-  top: 75px;
+  position: fixed;
+  top: 174px;
   left: 70px;
 }
 
@@ -294,8 +294,8 @@ h3 {
   }
 
   h2 {
-    top: 57px;
-    left: -9px;
+    top: 165px;
+    left: 47px;
     font-size: 20px;
     text-align: center;
     display: block;
