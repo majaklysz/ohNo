@@ -1,0 +1,405 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar</title>
+    <link rel="stylesheet" href="../calender/css/style.css">
+    <script src="https://kit.fontawesome.com/4b851013c1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--Mobile Nav-->
+    <nav class="site-nav">
+        <button class="burger-menu-button">
+            <img class="burger-img"
+                src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/052/284/original/menu_burger.png?1667906655"
+                alt="burger" />
+        </button>
+        <div class="site-menu" id="appear">
+            <ul>
+                <li class="menu">Menu</li>
+                <hr width="80%" style="color: black" />
+                <li class="home-color"><a href="../index.html">Home</a></li>
+                <li class="laundry-color"><a href="../error/index.html">Laundry</a></li>
+                <li class="vacuum-color"><a href="../vacuume/index.html">Vacuum</a></li>
+                <li class="borrow-color"><a href="../error/index.html">Borrow Utilities</a></li>
+                <li class="book-color"><a href="../calander/index.html">Book Rooms</a></li>
+                <li class="staff-color"><a href="../staff/index.html">Staff Members</a></li>
+                <li class="map-color"><a href="../bus/index.html">Map</a></li>
+            </ul>
+        </div>
+    </nav>
+    <a href="../index.html">
+    <img class="logo"
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/052/046/original/minilogo2.png?1667811855"
+        alt="logo"></a>
+    <h1>Common Rooms</h1>
+    <div class="buttongroup">
+        <button id="room room1" class="button" onclick="btn1()">Room 1</button>
+        <button id="room room2" class="button" onclick="btn2()">Room 2</button>
+        <button id="room room3" class="button" onclick="btn3()">Room 3</button>
+        <button id="room room4" class="button" onclick="btn4()">Room 4</button>
+    </div>
+    <!--Tablet Nav-->
+    <div class="sideMenu">
+        <ul>
+            <li>
+                <a href="../error/index.html">
+                    <img class="laundry"
+                        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/052/605/original/Laundry-icon.png?1668078440"
+                        alt="laundry" />
+                </a>
+            </li>
+            <li>
+                <a href="../vacuume/index.html">
+                    <img class="vacuum"
+                        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/052/611/original/Vacuum-Icon.png?1668078489"
+                        alt="vacuum" />
+                </a>
+            </li>
+            <li>
+                <a href="../error/index.html">
+                    <img class="utility"
+                        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/052/610/original/Utilities-Icon.png?1668078480"
+                        alt="utility" />
+                </a>
+            </li>
+            <li>
+                <a href="../calender/index.html">
+                    <img class="calender"
+                        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/054/093/original/Calander-Icon.png?1668588177"
+                        alt="calender" />
+                </a>
+            </li>
+            <li>
+                <a href="../staff/index.html">
+                    <img class="staff"
+                        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/052/608/original/Staff-icon.png?1668078465"
+                        alt="staff" />
+                </a>
+            </li>
+            <li>
+                <a href="../bus/index.html">
+                    <img class="mapIcon"
+                        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/054/094/original/Map-Icon.png?1668588220"
+                        alt="map" />
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div>
+        <!--November-->
+        <table class="tg mySlides">
+            <thead>
+                <tr>
+                    <th style="height: 70px; text-align: center; font-size: 2.5rem;" class=" tg-ga93" colspan="7">
+                        <i id="unactive" class="fa-solid fa-chevron-left"
+                            style="float: left; margin-left: 34px; margin-top: 15px;"></i>
+                        <i class="fa-solid fa-chevron-right" style="float:right; margin-right: 34px; margin-top: 15px;"
+                            onclick="plusSlides(1)"></i>
+                        <p style="margin-top:13px;margin-bottom: 10px;">November</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="tg-g1fv">S</td>
+                    <td class="tg-g1fv">M</td>
+                    <td class="tg-g1fv">T</td>
+                    <td class="tg-g1fv">W</td>
+                    <td class="tg-g1fv">T</td>
+                    <td class="tg-g1fv">F</td>
+                    <td class="tg-g1fv">S</td>
+                </tr>
+                <tr>
+                    <td class="tg-iqrg" onclick="October(30)">30</td>
+                    <td class="tg-iqrg" onclick="October(31)">31</td>
+                    <td class="tg-c6of" onclick="November(1)">1</td>
+                    <td class="tg-c6of" onclick="November(2)">2</td>
+                    <td class="tg-c6of" onclick="November(3)">3</td>
+                    <td class="tg-c6of" onclick="November(4)">4</td>
+                    <td class="tg-c6of" onclick="November(5)">5</td>
+                </tr>
+                <tr>
+                    <td class="tg-c6of" onclick="November(6)">
+                        <div class="date">6</div>
+                        <div class="event">
+                            <div class="event-desc">
+                                Yoga 7-9
+                            </div>
+                        </div>
+                    </td>
+                    <td class="tg-c6of" onclick="November(7)">7</td>
+                    <td class="tg-c6of" onclick="November(8)">
+                        <div class="date">8</div>
+                        <div class="event">
+                            <div class="event-desc">
+                                Ensemble 9-14
+                            </div>
+                        </div>
+                    </td>
+                    <td class="tg-c6of" onclick="November(9)">9</td>
+                    <td class="tg-c6of" onclick="November(10)">10</td>
+                    <td class="tg-c6of" onclick="November(11)">11</td>
+                    <td class="tg-c6of" onclick="November(12)">12</td>
+                </tr>
+                <tr>
+                    <td class="tg-c6of" onclick="November(13)">13</td>
+                    <td class="tg-c6of" onclick="November(14)">14</td>
+                    <td class="tg-c6of" onclick="November(15)">15</td>
+                    <td class="tg-c6of" onclick="November(16)">16</td>
+                    <td class="tg-c6of" onclick="November(17)">17</td>
+                    <td class="tg-c6of" onclick="November(18)">
+                        <div class="date">18</div>
+                        <div class="event">
+                            <div class="event-desc">
+                                Party 18-03
+                            </div>
+                        </div>
+                    </td>
+                    <td class="tg-c6of" onclick="November(19)">19</td>
+                </tr>
+                <tr>
+                    <td class="tg-c6of" onclick="November(20)">20</td>
+                    <td class="tg-c6of" onclick="November(21)">21</td>
+                    <td class="tg-c6of" onclick="November(22)">22</td>
+                    <td class="tg-c6of" onclick="November(23)">23</td>
+                    <td class="tg-c6of" onclick="November(24)">24</td>
+                    <td class="tg-c6of" onclick="November(25)">25</td>
+                    <td class="tg-c6of" onclick="November(26)">26</td>
+                </tr>
+                <tr>
+                    <td class="tg-c6of curve-left" onclick="November(27)">27</td>
+                    <td class="tg-c6of" onclick="November(28)">28</td>
+                    <td class="tg-c6of" onclick="November(29)">29</td>
+                    <td class="tg-c6of" onclick="November(30)">30<div class="event">
+                            <div class="event-desc">
+                                Ensemble 9-14
+                            </div>
+                    </td>
+                    <td class="tg-iqrg" onclick="December(1)">1</td>
+                    <td class="tg-iqrg" onclick="December(2)">
+                        <div class="date">2</div>
+                        <div class="event">
+                            <div class="event-desc">
+                                Yoga 10-12
+                            </div>
+                        </div>
+                    </td>
+                    <td class="tg-iqrg curve-right" onclick="December(3)">3</td>
+                </tr>
+            </tbody>
+        </table>
+        <!--December-->
+        <table class="tg mySlides">
+            <thead>
+                <tr>
+                    <th style="height: 70px; text-align: center; font-size: 2.5rem;" class=" tg-ga93" colspan="7">
+                        <i class="fa-solid fa-chevron-left" style="float: left; margin-left: 34px; margin-top: 15px;"
+                            onclick="plusSlides(-1)"></i>
+                        <i class="fa-solid fa-chevron-right" style="float:right; margin-right: 34px; margin-top: 15px;"
+                            onclick="plusSlides(1)"></i>
+                        <p style="margin-top:13px;margin-bottom: 10px;"> December</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="tg-g1fv">S</td>
+                    <td class="tg-g1fv">M</td>
+                    <td class="tg-g1fv">T</td>
+                    <td class="tg-g1fv">W</td>
+                    <td class="tg-g1fv">T</td>
+                    <td class="tg-g1fv">F</td>
+                    <td class="tg-g1fv">S</td>
+                </tr>
+                <tr>
+                    <td class="tg-iqrg" onclick="November(27)">27</td>
+                    <td class="tg-iqrg" onclick="November(28)">28</td>
+                    <td class="tg-iqrg" onclick="November(29)">29</td>
+                    <td class="tg-iqrg" onclick="November(30)">30</td>
+                    <td class="tg-c6of" onclick="December(1)">1</td>
+                    <td class="tg-c6of" onclick="December(2)">2</td>
+                    <td class="tg-c6of" onclick="December(3)">3</td>
+                </tr>
+                <tr>
+                    <td class="tg-c6of" onclick="December(4)">
+                        <div class="date">4</div>
+                        <div class="event">
+                            <div class="event-desc">
+                                Yoga 10-12
+                            </div>
+                        </div>
+                    </td>
+                    <td class="tg-c6of" onclick="December(5)">5</td>
+                    <td class="tg-c6of" onclick="December(6)">6</td>
+                    <td class="tg-c6of" onclick="December(7)">7</td>
+                    <td class="tg-c6of" onclick="December(8)">8</td>
+                    <td class="tg-c6of" onclick="December(9)">9</td>
+                    <td class="tg-c6of" onclick="December(10)">10</td>
+                </tr>
+                <tr>
+                    <td class="tg-c6of" onclick="December(11)">11</td>
+                    <td class="tg-c6of" onclick="December(12)">12</td>
+                    <td class="tg-c6of" onclick="December(13)">13</td>
+                    <td class="tg-c6of">
+                        <div class="date" onclick="December(14)">14</div>
+                        <div class="event">
+                            <div class="event-desc">
+                                Football 18-20
+                            </div>
+                        </div>
+                    <td class="tg-c6of" onclick="December(15)">15</td>
+                    <td class="tg-c6of" onclick="December(16)">16</td>
+                    <td class="tg-c6of" onclick="December(17)">17</td>
+                </tr>
+                <tr>
+                    <td class="tg-c6of" onclick="December(18)">18</td>
+                    <td class="tg-c6of" onclick="December(19)">19</td>
+                    <td class="tg-c6of" onclick="December(20)">
+                        <div class="date">20</div>
+                        <div class="event">
+                            <div class="event-desc">
+                                Ensemble 9-14
+                            </div>
+                        </div>
+                    </td>
+                    <td class="tg-c6of" onclick="December(21)">21</td>
+                    <td class="tg-c6of" onclick="December(22)">22</td>
+                    <td class="tg-c6of" onclick="December(23)">
+                        <div class="date">23</div>
+                        <div class="event">
+                            <div class="event-desc">
+                                Party 18-03
+                            </div>
+                        </div>
+                    <td class="tg-c6of" onclick="December(24)">24</td>
+                </tr>
+                <tr>
+                    <td class="tg-c6of curve-left" onclick="December(25)">25</td>
+                    <td class="tg-c6of" onclick="December(26)">26</td>
+                    <td class="tg-c6of" onclick="December(27)">27</td>
+                    <td class="tg-c6of" onclick="December(28)">28</td>
+                    <td class="tg-c6of" onclick="December(29)">29</td>
+                    <td class="tg-c6of" onclick="December(30)">30</td>
+                    <td class="tg-c6of curve-right" onclick="December(31)">31</td>
+                </tr>
+            </tbody>
+        </table>
+        <!--January-->
+        <table class="tg mySlides">
+            <thead>
+                <tr>
+                    <th style="height: 70px; text-align: center; font-size: 2.5rem;" class=" tg-ga93" colspan="7">
+                        <i class="fa-solid fa-chevron-left" style="float: left; margin-left: 34px; margin-top: 15px;"
+                            onclick="plusSlides(-1)"></i>
+                        <i id="unactive" class="fa-solid fa-chevron-right"
+                            style="float:right; margin-right: 34px; margin-top: 15px;"></i>
+                        <p style="margin-top:13px;margin-bottom: 10px;"> January</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="tg-g1fv">S</td>
+                    <td class="tg-g1fv">M</td>
+                    <td class="tg-g1fv">T</td>
+                    <td class="tg-g1fv">W</td>
+                    <td class="tg-g1fv">T</td>
+                    <td class="tg-g1fv">F</td>
+                    <td class="tg-g1fv">S</td>
+                </tr>
+                <tr>
+                    <td class="tg-c6of">
+                        <div class="date" onclick="January(1)">1</div>
+                        <div class="event">
+                            <div class="event-desc">
+                                Yoga 10-12
+                            </div>
+                        </div>
+                    <td class="tg-c6of" onclick="January(2)">2</td>
+                    <td class="tg-c6of" onclick="January(3)">3</td>
+                    <td class="tg-c6of" onclick="January(4)">4</td>
+                    <td class="tg-c6of" onclick="January(5)">5</td>
+                    <td class="tg-c6of" onclick="January(6)">6</td>
+                    <td class="tg-c6of" onclick="January(7)">7</td>
+                </tr>
+                <tr>
+                    <td class="tg-c6of" onclick="January(8)">8</td>
+                    <td class="tg-c6of" onclick="January(9)">9</td>
+                    <td class="tg-c6of" onclick="January(10)">
+                        <div class="date">10</div>
+                        <div class="event">
+                            <div class="event-desc">
+                                Ensemble 9-14
+                            </div>
+                        </div>
+                    </td>
+                    <td class="tg-c6of" onclick="January(11)">11</td>
+                    <td class="tg-c6of" onclick="January(12)">12</td>
+                    <td class="tg-c6of" onclick="January(13)">13</td>
+                    <td class="tg-c6of" onclick="January(14)">14</td>
+                </tr>
+                <tr>
+                    <td class="tg-c6of" onclick="January(15)">15</td>
+                    <td class="tg-c6of" onclick="January(16)">16</td>
+                    <td class="tg-c6of" onclick="January(17)">17</td>
+                    <td class="tg-c6of" onclick="January(18)">
+                        <div class="date">18</div>
+                        <div class="event">
+                            <div class="event-desc">
+                                Football 18-20
+                            </div>
+                        </div>
+                    <td class="tg-c6of" onclick="January(19)">19</td>
+                    <td class="tg-c6of" onclick="January(20)">
+                        <div class="date">20</div>
+                        <div class="event">
+                            <div class="event-desc">
+                                Party 18-03
+                            </div>
+                        </div>
+                    </td>
+                    <td class="tg-c6of" onclick="January(21)">21</td>
+                </tr>
+                <tr>
+                    <td class="tg-c6of" onclick="January(22)">22</td>
+                    <td class="tg-c6of" onclick="January(23)">23</td>
+                    <td class="tg-c6of" onclick="January(24)">24</td>
+                    <td class="tg-c6of" onclick="January(25)">25</td>
+                    <td class="tg-c6of" onclick="January(26)">26</td>
+                    <td class="tg-c6of" onclick="January(27)">27</td>
+                    <td class="tg-c6of" onclick="January(28)">28</td>
+                </tr>
+                <tr>
+                    <td class="tg-c6of curve-left" onclick="January(29)">29</td>
+                    <td class="tg-c6of" onclick="January(30)">30</td>
+                    <td class="tg-c6of" onclick="January(31)">31</td>
+                    <td class="tg-iqrg" onclick="Febuary(1)">1</td>
+                    <td class="tg-iqrg" onclick="Febuary(2)">2</td>
+                    <td class="tg-iqrg" onclick="Febuary(3)">3</td>
+                    <td class="tg-iqrg curve-right" onclick="Febuary(4)">4</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="arrow">
+        <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/054/115/original/arrow.png?1668596540"
+            alt="back arrow">
+    </div>
+    <div class="languageSwitch">
+        <aside class="flex">
+            <div id="en">en</div>
+            <div>/</div>
+            <div id="dk">dk</div>
+        </aside>
+    </div>
+</body>
+
+<script src="../calender/js/js.js"></script>
+
+</html>

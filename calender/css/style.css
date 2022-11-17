@@ -1,0 +1,389 @@
+style.css * {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  position: fixed;
+  top: 20px;
+  left: 17px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  font-family: Verdana, sans-serif;
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/054/269/original/Backgroundcalander.png?1668700953);
+  background-size: 1016px;
+  background-repeat: no-repeat;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.tg {
+  border-collapse: separate;
+  border-spacing: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tg td {
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
+}
+
+.tg th {
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
+}
+
+.tg .tg-ga93 {
+  background-color: #67bd45;
+  border-color: inherit;
+  color: #ffffff;
+  text-align: left;
+  vertical-align: top;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.tg .tg-g1fv {
+  background-color: #333333;
+  border-color: inherit;
+  color: #ffffff;
+  text-align: center;
+  vertical-align: top;
+  width: 93px;
+}
+
+.tg .tg-iqrg {
+  background-color: #ffffff;
+  border-color: inherit;
+  color: #afafaf;
+  text-align: right;
+  vertical-align: top;
+  height: 52px;
+}
+
+.tg .tg-c6of {
+  background-color: #ffffff;
+  border-color: inherit;
+  text-align: right;
+  vertical-align: top;
+  height: 52px;
+}
+
+table {
+  width: 650px;
+}
+
+.button {
+  background-color: #ffffff;
+  border: none;
+  color: #9f9f9f;
+  padding: 9px 38px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 15px;
+  cursor: pointer;
+  border-radius: 22px;
+  font-weight: 700;
+  font-size: 1rem;
+  font-family: "Segoe UI";
+}
+
+.buttonpress {
+  background-color: #67bd45;
+  border: none;
+  color: #fff;
+  padding: 9px 38px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 15px;
+  cursor: pointer;
+  border-radius: 22px;
+  font-weight: 700;
+  font-size: 1rem;
+  font-family: "Segoe UI";
+}
+
+h1 {
+  font-size: 3rem;
+  color: #ffffff;
+  text-align: center;
+  font-family: "Segoe UI", sans-serif;
+  padding-top: 52px;
+  font-weight: 400;
+}
+
+.buttongroup {
+  text-align: center;
+  padding-bottom: 53px;
+}
+
+.sideMenu {
+  display: block;
+  position: absolute;
+  top: 16px;
+  right: 20px;
+}
+
+li {
+  list-style: none;
+  padding-bottom: 38px;
+}
+
+.arrow {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  padding: 10px;
+  padding-left: 25px;
+}
+
+.languageSwitch {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  padding: 10px;
+  padding-right: 25px;
+}
+
+aside {
+  padding: 1%;
+}
+
+.flex {
+  position: fixed;
+  display: flex;
+  color: var(--blue);
+  font-family: Heading Pro Trial;
+  text-transform: uppercase;
+  align-items: flex-end;
+  right: 7px;
+  bottom: 15px;
+}
+
+#en {
+  color: var(--green);
+  font-weight: bold;
+  position: relative;
+}
+
+.event-desc {
+  font-family: "Segoe UI";
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.6rem;
+  text-align: center;
+}
+
+.event {
+  flex: 0 0 auto;
+  font-size: 13px;
+  border-radius: 30px;
+  padding: 3px;
+  line-height: 14px;
+  background: #67bd45;
+  color: #67bd45;
+  text-decoration: none;
+}
+
+.newColor {
+  background-color: #67bd45 !important;
+  color: #fff;
+}
+
+.mySlides {
+  display: none;
+}
+
+:root {
+  --green: #67bd45;
+  --white: #fff;
+  --blue: #023e73;
+  --bodytext: Segoe UI;
+  --headlines: Heading Pro Trial;
+}
+
+.site-nav {
+  display: none;
+}
+
+.burger-menu-button {
+  border: none;
+  background: none;
+  margin-top: 30px;
+}
+
+#unactive {
+  color: #d3d3d3;
+  opacity: 60%;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    overflow: hidden;
+    font-family: Verdana, sans-serif;
+    background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/054/226/original/Mask_Group_8.png?1668679854);
+    background-repeat: no-repeat;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+  }
+
+  .arrow {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+  }
+
+  .flex {
+    color: var(--white);
+  }
+
+  p {
+    font-size: 30px;
+  }
+
+  h1 {
+    font-size: 40px;
+    margin-top: 10px;
+  }
+
+  .logo {
+    width: 10%;
+  }
+
+  table {
+    width: 380px;
+  }
+
+  tbody {
+    border-radius: 15px;
+  }
+
+  .tg .tg-g1fv {
+    background-color: #333333;
+    border-color: inherit;
+    color: #ffffff;
+    text-align: center;
+    vertical-align: top;
+    width: 42.8571428571px;
+  }
+
+  .event {
+    font-size: 3px;
+    height: 10px;
+    width: 10px;
+    margin-left: 15px;
+    margin-top: 8px;
+    position: absolute;
+  }
+
+  .event-desc {
+    font-size: 0px;
+  }
+
+  .sideMenu {
+    display: none;
+  }
+
+  .site-nav {
+    height: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+    z-index: 2;
+  }
+
+  .site-menu {
+    display: none;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 100%;
+    width: 200px;
+    background: #ffffff;
+    /* transform: translateX(100%);*/
+    transition: 0.3s transform ease-in-out;
+    z-index: 2;
+  }
+
+  .site-menu ul {
+    padding: 0px;
+    list-style-type: none;
+    margin: 0px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    background-color: #fff;
+  }
+
+  .site-menu li {
+    margin-top: 33px;
+    flex-basis: 100%;
+    display: flex;
+    height: 30px;
+    font-family: Segoe UI;
+  }
+
+  .site-menu a {
+    display: flex;
+    box-sizing: border-box;
+    text-decoration: none;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    color: #023e73;
+    padding: 25px;
+    left: 0px;
+    font-size: 20px;
+  }
+
+  .site-menu a:hover {
+    background: #023e73a9;
+    color: #fff;
+  }
+
+  .menu {
+    font-size: 25px;
+    font-size: larger;
+    font-weight: bold;
+    color: #67bd45;
+    margin-left: 21px;
+    padding-bottom: 13px;
+  }
+
+  .curve-left {
+    border-radius: 0px 0px 0px 15px;
+  }
+
+  .curve-right {
+    border-radius: 0px 0px 15px 0px;
+  }
+
+  hr {
+    border: 1px solid var(--blue);
+  }
+}

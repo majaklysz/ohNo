@@ -86,8 +86,8 @@ aside {
 .title {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   position: fixed;
-  font-size: 23px;
-  top: 6%;
+  font-size: 27px;
+  top: 3%;
   left: 30%;
   color: #fff;
 }
@@ -239,7 +239,6 @@ a {
 
   .site-menu a {
     display: flex;
-    padding: 10px;
     box-sizing: border-box;
     text-decoration: none;
     align-items: center;
