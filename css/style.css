@@ -7,7 +7,7 @@
   --white: #fff;
   --blue: #023e73;
   --bodytext: Segoe UI;
-  --headlines: Heading Pro Trial;
+  --headlines: Segoe UI;
 }
 
 .miniLogo {
@@ -89,7 +89,7 @@ aside {
   font-family: var(--headlines);
   font-weight: normal;
   text-align: center;
-  font-size: 18px;
+  font-size: 25px;
 }
 
 h1 {
@@ -97,8 +97,9 @@ h1 {
   font-family: var(--headlines);
   text-align: center;
   position: fixed;
-  top: 187px;
-  left: 229px;
+  top: 171px;
+  left: 213px;
+  font-size: 50px;
 }
 
 .site-nav {
@@ -116,6 +117,10 @@ h1 {
     width: 10%;
   }
 
+  .lable {
+    font-size: 20px;
+  }
+
   .tutorial {
     width: 6%;
     right: 15px;
@@ -124,7 +129,7 @@ h1 {
 
   .logo {
     width: 49%;
-    top: 113px;
+    top: 68px;
   }
 
   .settings {
@@ -134,8 +139,9 @@ h1 {
   }
 
   h1 {
-    font-size: 18px;
-    left: 53px;
+    top: 138px;
+    font-size: 28px;
+    left: 38px;
   }
 
   .flex {
@@ -151,6 +157,8 @@ h1 {
   .icons {
     flex: 50%;
     gap: 24px;
+    top: -14px;
+    position: relative;
   }
 
   .box {

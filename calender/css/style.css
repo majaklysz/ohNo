@@ -4,10 +4,9 @@
 }
 
 .logo {
-  height: 90px;
-  padding: 20px;
-  z-index: 3;
-  position: absolute;
+  position: fixed;
+  top: 20px;
+  left: 17px;
 }
 
 ul {
@@ -106,7 +105,7 @@ table {
   border-radius: 22px;
   font-weight: 700;
   font-size: 1rem;
-  font-family: "Segoe UI";
+  font-family: Segoe UI;
 }
 
 .buttonpress {
@@ -122,14 +121,14 @@ table {
   border-radius: 22px;
   font-weight: 700;
   font-size: 1rem;
-  font-family: "Segoe UI";
+  font-family: Segoe UI;
 }
 
 h1 {
   font-size: 3rem;
   color: #ffffff;
   text-align: center;
-  font-family: "Heading Pro Wide Trial", sans-serif;
+  font-family: "Segoe UI";
   padding-top: 52px;
   font-weight: 400;
 }
@@ -176,7 +175,7 @@ aside {
   position: fixed;
   display: flex;
   color: var(--blue);
-  font-family: Heading Pro Trial;
+  font-family: Segoe UI;
   text-transform: uppercase;
   align-items: flex-end;
   right: 7px;
@@ -190,7 +189,7 @@ aside {
 }
 
 .event-desc {
-  font-family: "Segoe UI";
+  font-family: Segoe UI;
   color: #fff;
   text-decoration: none;
   font-size: 0.6rem;
@@ -222,7 +221,7 @@ aside {
   --white: #fff;
   --blue: #023e73;
   --bodytext: Segoe UI;
-  --headlines: Heading Pro Trial;
+  --headlines: Segoe UI;
 }
 
 .site-nav {
@@ -251,14 +250,15 @@ aside {
     overflow: hidden;
   }
 
+  .buttongroup {
+    padding-bottom: 44px;
+    padding-top: 35px;
+  }
+
   .arrow {
     position: absolute;
     bottom: 0px;
     left: 0px;
-  }
-
-  .flex {
-    color: var(--white);
   }
 
   p {
@@ -271,8 +271,7 @@ aside {
   }
 
   .logo {
-    height: 60px;
-    top: 1px;
+    width: 10%;
   }
 
   table {
@@ -344,7 +343,7 @@ aside {
   }
 
   .site-menu li {
-    margin-top: 20px;
+    margin-top: 33px;
     flex-basis: 100%;
     display: flex;
     height: 30px;
@@ -353,7 +352,6 @@ aside {
 
   .site-menu a {
     display: flex;
-    padding: 10px;
     box-sizing: border-box;
     text-decoration: none;
     align-items: center;
@@ -361,6 +359,8 @@ aside {
     width: 100%;
     color: #023e73;
     padding: 25px;
+    left: 0px;
+    font-size: 20px;
   }
 
   .site-menu a:hover {
@@ -369,10 +369,17 @@ aside {
   }
 
   .menu {
+    font-size: 25px;
     font-size: larger;
     font-weight: bold;
     color: #67bd45;
     margin-left: 21px;
+    top: 13px;
+    padding-bottom: 23px;
+  }
+
+  .book-color {
+    background-color: #67bd4570;
   }
 
   .curve-left {
@@ -385,10 +392,10 @@ aside {
 
   hr {
     border: 1px solid var(--blue);
+    position: relative;
+    left: 17px;
   }
-
-  .burger-menu-button {
-    margin-top: 70px;
-    margin-right: 25px;
+  .line li {
+    margin: 0;
   }
 }
