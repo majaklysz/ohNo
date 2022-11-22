@@ -56,8 +56,8 @@ aside {
   font-family: "Segoe UI";
   text-transform: uppercase;
   align-items: flex-end;
-  right: 7px;
-  bottom: 15px;
+  right: 73px;
+  bottom: -22px;
 }
 
 #en {
@@ -249,6 +249,8 @@ h3 {
   }
 
   hr {
+    width: 80%;
+    color: black;
     border: 1px solid var(--blue);
     margin-left: 13px;
   }
